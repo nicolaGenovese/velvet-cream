@@ -107,6 +107,7 @@ CSS STRUCTURE:
   --accent-color: #C5A992;
   --dark-color: #2f2f2f;
   --grey-color: #f1f1f1;
+  --green-color: #164336;
   --body-text-color: #757575;
   --light-text-color: #afafaf;
   --dark-text-color: #2f2f2f;
@@ -490,7 +491,7 @@ h6,
 .h6 {
   font-weight: 700;
   line-height: 1.2;
-  color: var(--dark-color);
+  color: var(--green-color);
 }
 
 h1.light,
@@ -1346,7 +1347,7 @@ This is main CSS file that contains custom style rules used in this template
   height: var(--header-height);
   display: flex;
   align-items: center;
-  background-color: var(--dark-color);
+  background-color: var(--green-color);
   padding: 40px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
@@ -2040,7 +2041,7 @@ body.nav-active .nav__block .nav__block-item {
   line-height: 0;
   font-weight: 900;
   color: #fff;
-  background: var(--dark-color);
+  background: var(--green-color);
   padding: 20px;
   margin: 0;
 }
@@ -2288,6 +2289,10 @@ body.nav-active .nav__block .nav__block-item {
 
 .bg-grey {
   background: var(--grey-color);
+}
+
+.bg-green {
+  background: var(--green-color);
 }
 
 .content-light a,
