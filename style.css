@@ -111,6 +111,7 @@ CSS STRUCTURE:
   --body-text-color: #757575;
   --light-text-color: #afafaf;
   --dark-text-color: #2f2f2f;
+  --champagne-color: #ddcba4;
 }
 
 /* Fonts */
@@ -2293,6 +2294,10 @@ body.nav-active .nav__block .nav__block-item {
 
 .bg-green {
   background: var(--green-color);
+}
+
+.bg-champagne {
+  background: var(--champagne-color)
 }
 
 .content-light a,

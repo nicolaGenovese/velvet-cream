@@ -85,7 +85,7 @@
   var initSlider = function() {
     // homepage slider | slick slider
     $('.main-slider').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         fade: true,
         prevArrow: $('.prev'),
