@@ -107,11 +107,11 @@ CSS STRUCTURE:
   --accent-color: #C5A992;
   --dark-color: #2f2f2f;
   --grey-color: #f1f1f1;
-  --green-color: #164336;
+  --green-color: #1c4746;
   --body-text-color: #757575;
   --light-text-color: #afafaf;
   --dark-text-color: #2f2f2f;
-  --champagne-color: #ddcba4;
+  --champagne-color: #f5ebdb;
 }
 
 /* Fonts */
@@ -536,7 +536,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   line-height: 1.4;
 }
 
@@ -571,6 +571,7 @@ h6 a {
 
 p {
   margin: 0 0 20px 0;
+  font-size: larger;
 }
 
 p:empty {
