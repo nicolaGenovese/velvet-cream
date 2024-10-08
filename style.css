@@ -79,6 +79,7 @@ CSS STRUCTURE:
   7.1 Gallery Widget
 
 ------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .text-light {
   --bs-text-opacity: 0.6;
 }
@@ -122,7 +123,7 @@ CSS STRUCTURE:
 
 /* Bootstrap */
 body {
-  --heading-font: "Montserrat", Roboto, sans-serif;
+  --heading-font: "playfair display", Roboto, sans-serif;
   --heading-font-weight: 400;
   --heading-color: #111;
   --heading-line-height: 1.24;
@@ -572,6 +573,7 @@ h6 a {
 p {
   margin: 0 0 20px 0;
   font-size: larger;
+  /* color: #2bcaae; */
 }
 
 p:empty {
